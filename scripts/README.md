@@ -21,6 +21,12 @@
 > 
 > Run: sh ./scripts/pull-updates.sh
 
+### (3) gen-forks-list
+
+> Goal: Generation for GitHub Repository Forks List with given owner(user or organization).
+>
+> Run: sh ./scripts/gen-forks-list.sh
+
 ## 3. Custom Actions
 
 ### (1) sync-forks-originagents
@@ -28,6 +34,12 @@
 > Goal: Synchronization of GitHub Repository Forks for OriginAgents.
 >
 > Result: All GitHub Repository Forks sync with the upstreams for OriginAgents(https://github.com/OriginAgents).
+
+### (2) gen-forks-list-originagents
+
+> Goal: Generation of GitHub Repository Forks List for OriginAgents.
+> 
+> Result: assets/docs/Forks-List-OriginAgents.md
 
 ---
 
