@@ -27,7 +27,7 @@ jobs:
   gen-github-contribution-snake:
     name: Gen GitHub Contribution Snake for OriginAgents
     # The type of runner that the job will run on.
-    runs-on: [self-hosted, Linux, ARM64, OriginAgents, runner-1]
+    runs-on: ubuntu-latest
     
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
